@@ -12,16 +12,16 @@ export const getProductRepo = (): ProductRepo => {
     const initialProducts: Product[] = [
       {
         id: 'p-001',
-        name: 'Seeded Widget',
-        pricePence: 1299,
-        description: 'A seeded example product for local testing.',
+        name: 'Nikon DSLR Camera',
+        pricePence: 25999,
+        description: 'A camera seeded to test the app.',
         updatedAt: new Date(now.getTime() - 1000 * 60 * 60 * 24), // 1 day ago
       },
       {
         id: 'p-002',
-        name: 'Seeded Gadget',
-        pricePence: 2599,
-        description: 'Another seeded product to get you started.',
+        name: 'Galaxy Samsung Tablet',
+        pricePence: 49999,
+        description: 'A Tablet.',
         updatedAt: now,
       },
     ];
